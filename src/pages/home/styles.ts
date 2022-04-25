@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { darken } from 'polished';
 
 
 export const Header = styled.header`
@@ -75,15 +74,9 @@ export const Calc = styled.div`
             background-color: #34d22c;
             color: #fff;
         }
-
-        &:active {
-            background-color: ${darken(0.2, '#34d22c')};
-        }
-
     }
 
     #zero {
         width: 190px;
     }
-    
 `;
